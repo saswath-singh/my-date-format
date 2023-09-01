@@ -1,0 +1,26 @@
+{
+  "name": "@techie/my-date-format",
+  "version": "1.0.0",
+  "description": "An npm package for easy date formatting in JavaScript. Format dates according to custom patterns with this lightweight and versatile utility. Ideal for simplifying date display in web applications.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saswath-singh/my-date-format.git"
+  },
+  "keywords": [
+    "date",
+    "formatting",
+    "utility",
+    "javascript",
+    "npm"
+  ],
+  "author": "saswath-singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saswath-singh/my-date-format/issues"
+  },
+  "homepage": "https://github.com/saswath-singh/my-date-format#readme"
+}
