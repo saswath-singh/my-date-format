@@ -1,18 +1,18 @@
-# getDateFromFormat
+# getDateInFormat
 
 A small utility function to get a formatted date string from a Date object or a string.
 
 ## Installation
 
-npm install getDateFromFormat
+npm install getDateInFormat
 
 ## Usage
 
 ```javascript
-const getDateFromFormat = require('getDateFromFormat');
+const getDateInFormat = require('getDateInFormat');
 
 const date = new Date();
-const formattedDate = getDateFromFormat(date, 'yyyy-mm-dd');
+const formattedDate = getDateInFormat(date, 'yyyy-mm-dd');
 
 console.log(formattedDate); // 2023-09-01
 
@@ -33,5 +33,6 @@ The formatted date string.
 
 Examples
 JavaScript
-getDateFromFormat(new Date(), 'yyyy-mm-dd'); // 2023-09-01
-getDateFromFormat('2023-09-01', 'dd/mm/yyyy'); // 01/09/2023
+getDateInFormat(new Date(), 'yyyy-mm-dd'); // 2023-09-01
+getDateInFormat('2023-09-01', 'dd/mm/yyyy'); // 01/09/2023
+getDateInFormat("01/01/2025", "yyyy-mmm-dd hh:mm"); // 2025-Jan-01 00:00

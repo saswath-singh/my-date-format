@@ -1,4 +1,4 @@
-function getDateFromFormat (date, format) {
+function getDateInFormat (date, format) {
     try {
         // Input validation
         if (!(date instanceof Date)) {
@@ -33,4 +33,4 @@ function getDateFromFormat (date, format) {
     }
 };
 
-module.exports = getDateFromFormat
+module.exports = getDateInFormat
